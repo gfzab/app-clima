@@ -1,0 +1,106 @@
+.body {
+  height: 100%;
+  margin: 0%;
+}
+/* url("https://images.unsplash.com/photo-1505533321630-975218a5f66f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"); */
+
+.Principal { /* contenedor principal */
+  background-image: url('https://i.pinimg.com/originals/85/db/41/85db411e5bebff00b8a21f6d29d8c394.gif');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  justify-content: center; /* Centra horizontalmente */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+  height: 100vh;
+
+}
+.Model {
+  position: relative;
+  top: -100px;
+  margin-top: 0px; /* Agrega margen superior para mover la imagen hacia abajo */
+  margin-left: 150px;
+  text-align: justify;
+}
+.lista {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 0px;
+ }
+.Description {
+  font-weight: bold;
+  float: right;
+  margin-right: 50px;
+  color: aliceblue;
+  border: #e1f197;
+}
+
+.Titulo1 {
+  font-size: 50px;
+  text-shadow: 0 12 10px rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  
+  
+}
+.Titulo2 {
+  display: contents;
+  text-align: center;
+  margin-top: -10%;
+  /*text-shadow: 0 2 15px rgba(240, 223, 223, 0.7); */
+  margin: 10px;
+}
+img {
+  position: relative;
+  top: 205px; /* Mueve la imagen 10 píxeles hacia abajo desde su posición original */
+  left: -150px;
+  width: auto;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Container {
+  justify-content: center;
+  align-items: flex-end;
+  border: 3px solid rgb(221, 241, 245);
+  width: 500px;
+  border-radius: 1em;
+  border: 2px solid rgb(241, 241, 241);
+  margin: left 10%;
+}
+button {
+  background-color: #f3a978;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin: 2%;
+  font-weight: bold;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+button:hover {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 2px solid;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas */
+}
+
+h2 {
+  align-items: flex-end;
+  text-align: center;
+  margin-top: 10%;
+  color: white
+}
